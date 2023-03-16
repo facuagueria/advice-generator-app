@@ -1,9 +1,22 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import("tailwindcss").Config} */
 
 module.exports = {
-  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {}
+    extend: {
+      fontFamily: {
+        manrope: ['Manrope', 'sans-serif']
+      },
+      colors: {
+        // Primary
+        'light-cyan': 'hsl(193, 38%, 86%)',
+        'neon-green': 'hsl(150, 100%, 66%)',
+        // Neutral
+        'grayish-blue': 'hsl(217, 19%, 38%)',
+        'dark-grayish-blue': 'hsl(217, 19%, 24%)',
+        'dark-blue': 'hsl(218, 23%, 16%)'
+      }
+    }
   },
   plugins: []
 }
