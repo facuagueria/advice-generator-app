@@ -1,80 +1,31 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# Frontend Mentor - Advice generator app solution
 
-# React Tailwindcss Boilerplate build with Vite
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
 
-## What is inside?
+### Screenshot
 
-This project uses many tools like:
+### Desktop
+![img.png](src/assets/img.png)
+### Mobile
+![img_13.png](src/assets/img_13.png)
 
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+### Links
 
-## Getting Started
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-### Install
+## My process
 
-Create the project.
+### Built with
 
-```bash
-npx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
-```
+- [React](https://reactjs.org/) - JS library
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [Vite](https://vitejs.dev/) - Frontend Tooling
 
-Access the project directory.
 
-```bash
-cd my-app
-```
+## Author
 
-Install dependencies.
+- Frontend Mentor - [@facuagueria](https://www.frontendmentor.io/profile/facuagueria)
+- Twitter - [@facundoagueria](https://twitter.com/facundoagueria)
 
-```bash
-pnpm install
-```
-
-Serve with hot reload at <http://localhost:5173>.
-
-```bash
-pnpm run dev
-```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.
